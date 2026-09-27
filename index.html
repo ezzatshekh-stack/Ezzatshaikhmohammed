@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-brand="ezzat">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>عزت شيخ محمد — تسويق رقمي وصناعة محتوى</title>
+<meta name="description" content="عزت شيخ محمد، أخصائي تسويق رقمي في دبي. صاحب نيون براند وريل أدز.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" type="image/png" href="assets/img/basketball.png">
+<style>
+  .hero{padding:120px 0 100px;}
+  .hero-eyebrow{font-size:15px;color:var(--muted);margin:0 0 18px;}
+  .hero h1{font-family:var(--display);font-weight:700;font-size:clamp(38px,6vw,72px);line-height:1.12;margin:0 0 28px;max-width:14ch;}
+  .hero h1 em{font-style:normal;color:var(--accent);}
+  .hero p{font-family:var(--serif);font-size:19px;line-height:1.8;color:var(--muted);max-width:56ch;margin:0 0 36px;}
+  .hero-actions{display:flex;gap:16px;flex-wrap:wrap;}
+
+  .ventures{padding:20px 0 100px;}
+  .ventures h2{font-family:var(--display);font-size:28px;font-weight:500;margin:0 0 40px;}
+  .venture-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--line);}
+  @media(max-width:760px){.venture-grid{grid-template-columns:1fr;}}
+  .venture{background:var(--bg);padding:52px 40px;text-decoration:none;color:inherit;position:relative;overflow:hidden;
+    transition:padding-inline-start .35s ease;}
+  .venture:hover{padding-inline-start:56px;}
+  .venture-tag{display:inline-block;font-size:13px;padding:5px 12px;border-radius:20px;margin-bottom:26px;font-weight:500;}
+  .v-neon{background:#fbfbfa;color:#0c0c0c;}
+  .v-neon .venture-tag{background:#cdfb1a;color:#0c0c0c;}
+  .v-reel{background:#0a0a0c;color:#f3f1f6;}
+  .v-reel .venture-tag{background:#7a3bf0;color:#f3f1f6;}
+  .venture h3{font-family:var(--display);font-size:32px;font-weight:700;margin:0 0 14px;}
+  .venture p{font-family:var(--serif);font-size:16px;line-height:1.75;opacity:.75;margin:0 0 30px;max-width:38ch;}
+  .venture .go{font-size:15px;font-weight:500;display:inline-flex;align-items:center;gap:8px;}
+  .v-neon .go{color:#0c0c0c;}
+  .v-reel .go{color:#f3f1f6;}
+  .go svg{transition:transform .25s ease;}
+  .venture:hover .go svg{transform:translateX(-4px);}
+
+  .about{padding:0 0 110px;display:grid;grid-template-columns:1fr 1.3fr;gap:60px;}
+  @media(max-width:760px){.about{grid-template-columns:1fr;gap:36px;}}
+  .about h2{font-family:var(--display);font-size:28px;font-weight:500;margin:0;}
+  .about p{font-family:var(--serif);font-size:17px;line-height:1.85;color:var(--muted);margin:0 0 20px;}
+  .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
+  .skills span{font-size:14px;border:1px solid var(--line);padding:8px 16px;border-radius:20px;color:var(--muted);}
+</style>
+</head>
+<body data-brand="ezzat">
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-name"><img src="assets/img/basketball.png" alt="شعار عزت شيخ محمد" class="nav-logo">عزت <span>شيخ محمد</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">الرئيسية</a></li>
+      <li><a href="neon-brand.html">نيون براند</a></li>
+      <li><a href="reel-ads.html">ريل أدز</a></li>
+      <li><a href="#contact">تواصل</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="القائمة">☰</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="hero-eyebrow">دبي — تسويق رقمي ووسائل التواصل الاجتماعي</p>
+    <h1>أبني علامات تُشاهَد، وإعلانات <em>تُحقق نتائج</em></h1>
+    <p>خمس سنوات في إدارة حملات ميتا، استراتيجية المحتوى، وتوليد العملاء المحتملين. أدير مشروعين: نيون براند للوحات المضيئة، وريل أدز لصناعة محتوى إعلاني يبيع.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn btn-solid">لنتحدث عن مشروعك</a>
+      <a href="neon-brand.html" class="btn btn-line">تصفّح أعمالي</a>
+    </div>
+  </div>
+</header>
+
+<section class="ventures">
+  <div class="wrap">
+    <h2>مشاريعي</h2>
+  </div>
+  <div class="venture-grid">
+    <a href="neon-brand.html" class="venture v-neon">
+      <span class="venture-tag">لوحات مضيئة</span>
+      <h3>نيون براند</h3>
+      <p>لوحات نيون مصممة بالطلب، تحوّل واجهة محلك أو غرفتك إلى مساحة يتذكرها الزوار.</p>
+      <span class="go">اكتشف التصاميم
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </a>
+    <a href="reel-ads.html" class="venture v-reel">
+      <span class="venture-tag">محتوى إعلاني</span>
+      <h3>ريل أدز</h3>
+      <p>ريلز إعلانية مصمَّمة لتوقف التمرير وتدفع للشراء، من الفكرة حتى قياس النتيجة.</p>
+      <span class="go">شاهد النتائج
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </a>
+  </div>
+</section>
+
+<section class="about wrap" id="about">
+  <h2>خلاصة</h2>
+  <div>
+    <p>أعمل في وكالة Zeed، وأتابع حالياً ماجستير إدارة الأعمال في الجامعة الافتراضية السورية بدراسات في إدارة العمليات، المحاسبة، والقانون التجاري — خلفية أستخدمها لبناء حملات تُقاس بالأرقام لا بالانطباع.</p>
+    <div class="skills">
+      <span>Meta Ads</span><span>إدارة الحملات</span><span>استراتيجية المحتوى</span><span>توليد العملاء المحتملين</span><span>تحليل الأداء</span>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <span>© 2026 عزت شيخ محمد</span>
+    <a href="mailto:hello@ezzatsheikh.com">hello@ezzatsheikh.com</a>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
